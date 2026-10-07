@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Ishanth Muddada | Portfolio</title>
+
+    <style>
+
+        /* ===== BASIC SETTINGS ===== */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #222;
+        }
+
+
+        /* ===== HEADER ===== */
+
+        header {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin: 10px 0 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+
+        /* ===== HOME ===== */
+
+        .home {
+            text-align: center;
+            background-color: white;
+            padding: 70px 20px;
+        }
+
+        .profile-photo {
+            width: 210px;
+            height: 210px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #111827;
+        }
+
+        .home h2 {
+            font-size: 35px;
+            margin: 25px 0 10px;
+        }
+
+        .home h3 {
+            color: #2563eb;
+            font-size: 20px;
+        }
+
+        .home p {
+            max-width: 650px;
+            margin: 20px auto;
+            line-height: 1.7;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 13px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #1d4ed8;
+        }
+
+
+        /* ===== COMMON SECTION ===== */
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 40px;
+            background-color: white;
+            border-radius: 12px;
+        }
+
+        section h2 {
+            font-size: 28px;
+            margin-top: 0;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 12px;
+        }
+
+        section p {
+            line-height: 1.7;
+        }
+
+
+        /* ===== ABOUT ===== */
+
+        #about {
+            text-align: left;
+        }
+
+
+        /* ===== EDUCATION ===== */
+
+        .education-box {
+            border-left: 5px solid #2563eb;
+            padding: 20px;
+            background-color: #f8fafc;
+        }
+
+        .education-box h3 {
+            margin-top: 0;
+            font-size: 21px;
+        }
+
+
+        /* ===== SKILLS ===== */
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .skill {
+            background-color: #111827;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 6px;
+        }
+
+        .skill:hover {
+            background-color: #2563eb;
+        }
+
+
+        /* ===== PROJECT ===== */
+
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 25px;
+            background-color: #f8fafc;
+        }
+
+        .project h3 {
+            font-size: 22px;
+            margin-top: 0;
+        }
+
+
+        /* ===== CONTACT ===== */
+
+        .contact-item {
+            margin: 15px 0;
+        }
+
+        .contact-item a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* ===== FOOTER ===== */
+
+        footer {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+
+        /* ===== MOBILE ===== */
+
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: block;
+                margin: 12px;
+            }
+
+            .home {
+                padding: 45px 15px;
+            }
+
+            .profile-photo {
+                width: 160px;
+                height: 160px;
+            }
+
+            .home h2 {
+                font-size: 28px;
+            }
+
+            section {
+                margin: 20px 12px;
+                padding: 25px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <h1>Ishanth</h1>
+
+        <p>Student | Aspiring Software Developer</p>
+
+        <nav>
+
+            <a href="#about">About</a>
+
+            <a href="#education">Education</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#projects">Projects</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= HOME ================= -->
+
+    <div class="home">
+
+        <img
+            src="profile.jpg"
+            alt="Ishanth Muddada"
+            class="profile-photo"
+        >
+
+        <h2>Hello, I'm Ishanth 👋</h2>
+
+        <h3>Student | Aspiring Software Developer</h3>
+
+        <p>
+            I am a student who is interested in coding and technology.
+            I am currently learning web development and programming.
+            My goal is to become a software developer.
+        </p>
+
+        <a href="#projects" class="button">
+            View My Project
+        </a>
+
+    </div>
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Ishanth Muddada.
+        </p>
+
+        <p>
+            I am a student interested in coding and technology.
+            I am currently learning web development and programming.
+        </p>
+
+        <p>
+            I enjoy learning new things, improving my coding skills,
+            and creating simple projects.
+        </p>
+
+    </section>
+
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <div class="education-box">
+
+            <h3>
+                Scaler School of Technology, BITS Pilani
+            </h3>
+
+            <p>
+                <strong>Course:</strong>
+                B.S. in Computer Science
+            </p>
+
+            <p>
+                <strong>Year:</strong>
+                1st Year
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <p>
+            These are the technologies and tools I am currently
+            learning and working with.
+        </p>
+
+        <div class="skills">
+
+            <div class="skill">HTML</div>
+
+            <div class="skill">CSS</div>
+
+            <div class="skill">Java</div>
+
+            <div class="skill">JavaScript</div>
+
+            <div class="skill">Git</div>
+
+            <div class="skill">GitHub</div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects">
+
+        <h2>My Project</h2>
+
+        <div class="project">
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+                This is my personal portfolio website created
+                using HTML and CSS.
+            </p>
+
+            <p>
+                It contains information about me, my education,
+                skills, project and contact details.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>
+            If you would like to contact me, you can reach me here:
+        </p>
+
+        <div class="contact-item">
+
+            📧 Email:
+
+            <a href="mailto:muddadaishanth2009@gmail.com">
+                muddadaishanth2009@gmail.com
+            </a>
+
+        </div>
+
+
+        <div class="contact-item">
+
+            💻 GitHub:
+
+            <a
+                href="https://github.com/Ishanth99900"
+                target="_blank"
+            >
+                Ishanth99900
+            </a>
+
+        </div>
+
+
+        <div class="contact-item">
+
+            🔗 LinkedIn:
+
+            <a
+                href="https://www.linkedin.com/in/ishanth-muddada-b465b6425/"
+                target="_blank"
+            >
+                Ishanth Muddada
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Ishanth Muddada
+        </p>
+
+        <p>
+            Student | Aspiring Software Developer
+        </p>
+
+    </footer>
+
+
+</body>
+</html>
